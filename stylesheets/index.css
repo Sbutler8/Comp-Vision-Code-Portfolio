@@ -25,6 +25,13 @@ h1 {
     font-size: xxx-large;
 }
 
+pre {
+    /* display: block; */
+    font-family: monospace;
+    white-space: 0;
+    margin: 0px;
+}
+
 body {
     margin: 0;
     font-family: 'system-ui';
@@ -37,7 +44,9 @@ main div {
 }
 main div {
     margin:10px;
-    background-color: rgba(255,255,255,0.45);
+    background-color: rgba(255,255,255,0.6);
+    border-radius:15px;
+    border-color: transparent;
 }
 
 a {
@@ -45,6 +54,14 @@ a {
     box-sizing: border-box;
     padding: 10px 0;
     text-align:center;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    text-shadow: 2px 2px 7px black;
+}
+
+p {
+    text-align: center;
 }
 
 div#one {
