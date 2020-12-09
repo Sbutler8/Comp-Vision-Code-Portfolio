@@ -1,0 +1,89 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j";
+    background-image: url("https://miro.medium.com/max/2400/1*8gmgaAkFdI-9OHY5cA93xQ.png");
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,248,249,1) 0%, rgba(134,139,143,1) 17%, rgba(10,18,17,1) 74%, rgba(10,6,18,1) 95%);
+    height: 89.1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:20px;
+    font-family: 'system-ui';
+    font-size: xxx-large;
+}
+
+body {
+    margin: 0;
+    font-family: 'system-ui';
+    font-weight: bold;
+
+}
+
+main div {
+    display: block;
+}
+main div {
+    margin:10px;
+    background-color: rgba(255,255,255,0.45);
+}
+
+a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 0;
+    text-align:center;
+}
+
+div#one {
+    grid-area: a;
+    background-color: orange;
+    background-color: rgba(255,255,255,0.45);
+}
+
+div#two {
+    grid-area: b;
+}
+
+div#three {
+    grid-area: c;
+}
+
+div#four {
+    grid-area: d;
+}
+div#five {
+    grid-area: e;
+}
+div#six {
+    grid-area: f;
+}
+div#seven {
+    grid-area: g;
+}
+div#eight {
+    grid-area: h;
+}
+div#nine {
+    grid-area: i;
+}
+div#ten {
+    grid-area: j;
+}
+main.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
