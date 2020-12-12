@@ -1,14 +1,15 @@
 .main-container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(7,1fr);
     grid-template-areas:
         "a b"
         "c d"
         "e f"
         "g h"
         "i j"
-        "k k";
+        "k k"
+        "l l";
     background-image: url("https://miro.medium.com/max/2400/1*8gmgaAkFdI-9OHY5cA93xQ.png");
     min-height: 100vh;
 }
@@ -48,14 +49,11 @@ body {
 main div {
     display: block;
     position: relative;
-}
-main div {
     margin:10px;
     background-color: rgba(255,255,255,0.6);
     border-radius:15px;
     border-color: transparent;
 }
-
 
 .assignment {
     font-size:20px;
@@ -97,6 +95,21 @@ a {
 
 i {
     margin: 5px;
+}
+
+div.img {
+    /* display:flex; */
+    justify-content: center;
+    grid-area: l;
+}
+
+img {
+    position: absolute;
+    justify-content: center;
+    width: auto;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: 750px;
 }
 
 p {
